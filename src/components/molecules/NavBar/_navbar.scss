@@ -1,0 +1,27 @@
+@use "../../../assets/styles/common" as *;
+@use "../../../assets/styles/main.scss" as *;
+
+.navbar {
+  display: none;
+
+  @include isMediaTabletLandscape() {
+    display: flex;
+
+    &__rotate-180 {
+      transform: rotate(180deg);
+      transition: transform 0.25s ease-in-out;
+    }
+
+    li {
+      font-family: $font-family-ubuntu;
+      font-weight: $font-weight-bold;
+
+      @include isMediaTabletLandscape() {
+        position: relative;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

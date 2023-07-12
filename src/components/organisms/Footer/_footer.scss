@@ -1,0 +1,57 @@
+@use "../../../assets/styles/common" as *;
+@use "../../../assets/styles/main.scss" as *;
+
+.footer {
+  background: $color-neutral-verydarkblackblue;
+  border-radius: $spacing-00 $border-radius-100 $spacing-00 $spacing-00;
+  font-family: $font-family-ubuntu;
+
+  @include isMediaTabletLandscape() {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    text-align: start !important;
+
+    padding: $spacing-72 $spacing-166 !important;
+  }
+
+  svg {
+    margin-top: $spacing-75;
+    margin-bottom: $spacing-32;
+
+    @include isMediaTabletLandscape() {
+      margin-top: $spacing-32 !important;
+      margin-bottom: $spacing-00 !important;
+    }
+  }
+
+  h6,
+  a {
+    font-size: $font-size-18;
+  }
+
+  h6 {
+    color: $color-neutral-white;
+    font-weight: $font-weight-medium;
+  }
+
+  a {
+    display: block;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-32;
+    color: $color-neutral-grayishblue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @include isMediaTabletLandscape() {
+      margin-bottom: $spacing-04;
+    }
+  }
+
+  &__connect {
+    margin-bottom: $spacing-72;
+  }
+}

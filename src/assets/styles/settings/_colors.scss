@@ -1,0 +1,16 @@
+/* ----- Primary Colors ----- */
+$color-primary-blue: #666ca3;
+$color-primary-darkblue: #13183f;
+$color-primary-darkpink: #f74780;
+$color-primary-pink: #ffa7c3;
+
+/* ----- Neutral Colors ----- */
+$color-neutral-white: #ffffff;
+$color-neutral-grey: #83869a;
+
+/* ----- Gradient Colors ----- */
+$color-gradient-orangepink: linear-gradient(
+  rgb(240, 42, 166),
+  rgb(255, 111, 72)
+);
+$color-gradient-bluepink: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
