@@ -2,4 +2,14 @@
 @use "../../../assets/styles/main.scss" as *;
 
 .footer {
+  background: $color-primary-darkblue;
+
+  button {
+    background: $color-gradient-bluepink;
+    color: $color-neutral-white;
+
+    &:hover {
+      background: $color-gradient-bluepink-hover;
+    }
+  }
 }

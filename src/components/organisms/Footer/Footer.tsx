@@ -1,33 +1,17 @@
-import React, { FC } from "react";
-import Heading from "../../atoms/Heading/Heading";
-import Anchor from "../../atoms/Anchor/Anchor";
-import { FooterProps } from "./types";
+import React from "react";
+import { logoLight } from "../../../assets/svg";
+import Svg from "../../atoms/Svg/Svg";
+import Button from "../../atoms/Button/Button";
 import "./_footer.scss";
 
-const Footer: FC<FooterProps> = ({ className }) => {
+const Footer = () => {
   return (
-    <footer className={className}>
-      <section className="footer__product">
-        <Heading className="mt--40 mb--24" type={"h6"} text={"Product"} />
-        <Anchor href={"#"} children={"Overview"} />
-        <Anchor href={"#"} children={"Pricing"} />
-        <Anchor href={"#"} children={"Marketplace"} />
-        <Anchor href={"#"} children={"Features"} />
-        <Anchor href={"#"} children={"Integration"} />
-      </section>
-      <section className="footer__company">
-        <Heading className="mt--40 mb--24" type={"h6"} text={"Company"} />
-        <Anchor href={"#"} children={"About"} />
-        <Anchor href={"#"} children={"Team"} />
-        <Anchor href={"#"} children={"Products"} />
-        <Anchor href={"#"} children={"Careers"} />
-      </section>
-      <section className="footer__connect">
-        <Heading className="mt--40 mb--24" type={"h6"} text={"Connect"} />
-        <Anchor href={"#"} children={"Contact"} />
-        <Anchor href={"#"} children={"Newsletter"} />
-        <Anchor href={"#"} children={"LinkedIn"} />
-      </section>
+    <footer className="footer flex flex__justify--space-between py--40 px--16">
+      <Svg icon={logoLight} />
+      <Button
+        children={"Get Started"}
+        className=" border-radius--28 pt--8 pb--12 px--24"
+      />
     </footer>
   );
 };

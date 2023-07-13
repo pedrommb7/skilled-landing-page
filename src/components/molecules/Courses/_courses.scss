@@ -2,4 +2,36 @@
 @use "../../../assets/styles/main.scss" as *;
 
 .courses {
+  background: $color-gradient-whitegrey;
+  margin-bottom: 5rem;
+
+  h2 {
+    background: $color-gradient-orangepink;
+    color: $color-neutral-white;
+  }
+
+  &__animation,
+  &__design,
+  &__photography,
+  &__crypto,
+  &__business {
+    background-color: $color-neutral-white;
+
+    h3 {
+      font-size: $font-size-20;
+      font-weight: $font-weight-extrabold;
+    }
+
+    p {
+      font-weight: $font-weight-medium;
+      line-height: $line-height-26;
+    }
+
+    button {
+      color: $color-primary-darkpink;
+      font-size: $font-size-18;
+      font-weight: $font-weight-bold;
+      line-height: $line-height-28;
+    }
+  }
 }

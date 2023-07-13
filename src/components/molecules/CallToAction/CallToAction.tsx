@@ -7,7 +7,7 @@ import "./_calltoaction.scss";
 
 const CallToAction = () => {
   return (
-    <section className="callToAction">
+    <section className="callToAction px--16">
       <Heading
         type={"h1"}
         text={"Maximize skill, minimize budget"}

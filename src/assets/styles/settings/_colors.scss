@@ -9,11 +9,11 @@ $color-neutral-white: #ffffff;
 $color-neutral-grey: #83869a;
 
 /* ----- Gradient Colors ----- */
-$color-gradient-orangepink: linear-gradient(
+$color-gradient-pinkorange: linear-gradient(
   rgb(240, 42, 166),
   rgb(255, 111, 72)
 );
-$color-gradient-orangepink-hover: var(
+$color-gradient-pinkorange-hover: var(
   hsla(0, 0%, 100%, 1),
   linear-gradient(
     0deg,
@@ -22,6 +22,11 @@ $color-gradient-orangepink-hover: var(
   ),
   linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
 );
+$color-gradient-orangepink: linear-gradient(
+  hsla(13, 100%, 64%, 1),
+  hsla(322, 87%, 55%, 1)
+);
+
 $color-gradient-bluepink: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
 $color-gradient-bluepink-hover: linear-gradient(
     0deg,
@@ -29,3 +34,5 @@ $color-gradient-bluepink-hover: linear-gradient(
     rgba(255, 255, 255, 0.5) 100%
   ),
   linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+
+$color-gradient-whitegrey: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);

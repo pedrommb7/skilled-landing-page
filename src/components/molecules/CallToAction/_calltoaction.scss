@@ -5,16 +5,19 @@
   overflow: hidden;
   h1 {
     font-size: $font-size-40;
+    font-weight: $font-weight-extrabold;
     color: $color-primary-darkblue;
   }
 
   p {
     color: $color-neutral-grey;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-26;
   }
 
   button {
     display: block;
-    background: $color-gradient-orangepink;
+    background: $color-gradient-pinkorange;
     color: $color-neutral-white;
   }
 }

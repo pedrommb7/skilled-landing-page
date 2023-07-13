@@ -1,6 +1,10 @@
 @use "../settings/border-radius" as *;
 
 .border-radius {
+  &--10 {
+    border-radius: $border-radius-10;
+  }
+
   &--28 {
     border-radius: $border-radius-28;
   }
