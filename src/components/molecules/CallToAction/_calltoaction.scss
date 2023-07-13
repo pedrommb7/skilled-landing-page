@@ -1,0 +1,20 @@
+@use "../../../assets/styles/common" as *;
+@use "../../../assets/styles/main.scss" as *;
+
+.callToAction {
+  overflow: hidden;
+  h1 {
+    font-size: $font-size-40;
+    color: $color-primary-darkblue;
+  }
+
+  p {
+    color: $color-neutral-grey;
+  }
+
+  button {
+    display: block;
+    background: $color-gradient-orangepink;
+    color: $color-neutral-white;
+  }
+}

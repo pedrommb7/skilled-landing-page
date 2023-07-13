@@ -13,4 +13,19 @@ $color-gradient-orangepink: linear-gradient(
   rgb(240, 42, 166),
   rgb(255, 111, 72)
 );
+$color-gradient-orangepink-hover: var(
+  hsla(0, 0%, 100%, 1),
+  linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  ),
+  linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+);
 $color-gradient-bluepink: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
+$color-gradient-bluepink-hover: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  ),
+  linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
