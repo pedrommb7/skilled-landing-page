@@ -5,6 +5,10 @@
   background: $color-primary-darkblue;
   padding: 2.25rem 2.5rem !important;
 
+  @include isMediaDesktop() {
+    padding: 2rem 10.375rem !important;
+  }
+
   button {
     background: $color-gradient-bluepink;
     color: $color-neutral-white;

@@ -1,2 +1,8 @@
+@use "./assets/styles/common" as *;
+@use "./assets/styles/main.scss" as *;
+
 .App {
+  @include isMediaTablet() {
+    overflow: hidden;
+  }
 }

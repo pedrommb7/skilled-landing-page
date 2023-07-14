@@ -8,6 +8,10 @@
     padding: 1.5rem 2.5rem 0rem 2.5rem;
   }
 
+  @include isMediaDesktop() {
+    padding: 1.5rem 10.375rem 0rem 10.375rem;
+  }
+
   button {
     background-color: $color-primary-darkblue;
     color: $color-neutral-white;

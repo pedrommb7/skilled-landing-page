@@ -7,12 +7,12 @@ import Footer from "./components/organisms/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <NavBar />
       <CallToAction />
       <Courses />
       <Footer />
-    </>
+    </div>
   );
 }
 

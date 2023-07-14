@@ -12,6 +12,10 @@
     overflow: visible;
   }
 
+  @include isMediaDesktop() {
+    padding: 0rem 10.375rem;
+  }
+
   h1 {
     font-size: $font-size-40;
     font-weight: $font-weight-extrabold;
