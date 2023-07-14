@@ -2,6 +2,12 @@
 @use "../../../assets/styles/main.scss" as *;
 
 .navbar {
+  padding: 1rem 1rem 0rem 1rem;
+
+  @include isMediaTablet() {
+    padding: 1.5rem 2.5rem 0rem 2.5rem;
+  }
+
   button {
     background-color: $color-primary-darkblue;
     color: $color-neutral-white;

@@ -6,9 +6,22 @@
   background: $color-gradient-whitegrey;
   padding-bottom: 5rem;
 
+  @include isMediaTablet() {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem 0.75rem;
+
+    padding: 0rem 2.5rem 5.375rem 2.5rem;
+  }
+
   h2 {
     background: $color-gradient-orangepink;
     color: $color-neutral-white;
+
+    @include isMediaTablet() {
+      margin: 0rem !important;
+    }
   }
 
   &__animation,
@@ -42,32 +55,53 @@
   }
 
   &__animation {
+    margin-top: 0rem !important;
     &__iconAnimation {
       top: 8%;
+
+      @include isMediaTablet() {
+        top: -2%;
+      }
     }
   }
 
   &__design {
     &__iconDesign {
       top: 25%;
+
+      @include isMediaTablet() {
+        top: 33%;
+      }
     }
   }
 
   &__photography {
     &__iconPhotography {
       top: 43%;
+
+      @include isMediaTablet() {
+        top: 33%;
+      }
     }
   }
 
   &__crypto {
     &__iconCrypto {
       bottom: 36%;
+
+      @include isMediaTablet() {
+        bottom: 31%;
+      }
     }
   }
 
   &__business {
     &__iconBusiness {
       bottom: 18%;
+
+      @include isMediaTablet() {
+        bottom: 31%;
+      }
     }
   }
 }

@@ -3,6 +3,14 @@
 
 .callToAction {
   overflow: hidden;
+  position: relative;
+
+  @include isMediaTablet() {
+    padding: 0rem 2.5rem;
+    margin: 6.25rem 0rem;
+    overflow: visible;
+  }
+
   h1 {
     font-size: $font-size-40;
     font-weight: $font-weight-extrabold;
@@ -20,8 +28,44 @@
     background: $color-gradient-orangepink;
     color: $color-neutral-white;
 
+    @include isMediaTablet() {
+      width: 10.688rem;
+    }
+
     &:hover {
       background: $color-gradient-orangepink-hover;
+    }
+  }
+
+  @include isMediaTablet() {
+    &__container {
+      display: flex;
+
+      &__text {
+        width: 398px;
+        height: 384px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &__imgHero {
+        &__mobile {
+          display: none !important;
+        }
+
+        &__tablet,
+        &__desktop {
+          position: absolute;
+        }
+
+        &__tablet {
+          display: block;
+          right: -36%;
+          top: -67%;
+        }
+      }
     }
   }
 }

@@ -11,7 +11,7 @@ import "./_courses.scss";
 
 const Courses = () => {
   return (
-    <section className="courses px--16">
+    <section className="courses">
       <Heading
         type={"h2"}
         text={"Check out our most popular courses!"}

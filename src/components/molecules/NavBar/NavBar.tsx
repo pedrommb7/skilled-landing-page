@@ -6,7 +6,7 @@ import "./_navbar.scss";
 
 const NavBar = () => {
   return (
-    <nav className="navbar flex flex__align--center flex__justify--space-between mb--40 px--16 pt--16">
+    <nav className="navbar flex flex__align--center flex__justify--space-between mb--40 ">
       <Svg icon={logoDark} />
       <Button
         className="border-radius--28 px--24 py--12"
