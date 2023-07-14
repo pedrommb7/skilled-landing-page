@@ -20,7 +20,7 @@ const CallToAction = () => {
         className="mb--24"
       />
       <Button
-        className="border-radius--31 px--40 py--16"
+        className="border-radius--31 mb--40 px--40 py--16"
         children={"Get Started"}
         type="button"
         ariaLabel="Get Started button"

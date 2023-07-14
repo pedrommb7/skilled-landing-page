@@ -2,8 +2,9 @@
 @use "../../../assets/styles/main.scss" as *;
 
 .courses {
+  position: relative;
   background: $color-gradient-whitegrey;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 
   h2 {
     background: $color-gradient-orangepink;
@@ -16,6 +17,11 @@
   &__crypto,
   &__business {
     background-color: $color-neutral-white;
+
+    svg,
+    img {
+      position: absolute;
+    }
 
     h3 {
       font-size: $font-size-20;
@@ -32,6 +38,36 @@
       font-size: $font-size-18;
       font-weight: $font-weight-bold;
       line-height: $line-height-28;
+    }
+  }
+
+  &__animation {
+    &__iconAnimation {
+      top: 8%;
+    }
+  }
+
+  &__design {
+    &__iconDesign {
+      top: 25%;
+    }
+  }
+
+  &__photography {
+    &__iconPhotography {
+      top: 43%;
+    }
+  }
+
+  &__crypto {
+    &__iconCrypto {
+      bottom: 36%;
+    }
+  }
+
+  &__business {
+    &__iconBusiness {
+      bottom: 18%;
     }
   }
 }

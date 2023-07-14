@@ -10,7 +10,7 @@ const Footer = () => {
       <Svg icon={logoLight} />
       <Button
         children={"Get Started"}
-        className=" border-radius--28 pt--8 pb--12 px--24"
+        className=" border-radius--28 py--12 px--24"
       />
     </footer>
   );

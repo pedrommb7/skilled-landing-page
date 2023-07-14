@@ -17,7 +17,11 @@
 
   button {
     display: block;
-    background: $color-gradient-pinkorange;
+    background: $color-gradient-orangepink;
     color: $color-neutral-white;
+
+    &:hover {
+      background: $color-gradient-orangepink-hover;
+    }
   }
 }

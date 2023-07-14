@@ -5,5 +5,9 @@
   button {
     background-color: $color-primary-darkblue;
     color: $color-neutral-white;
+
+    &:hover {
+      background-color: $color-primary-blue;
+    }
   }
 }
