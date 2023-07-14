@@ -4,6 +4,7 @@
 .callToAction {
   overflow: hidden;
   position: relative;
+  padding: 0rem 1rem;
 
   @include isMediaTablet() {
     padding: 0rem 2.5rem;
@@ -34,6 +35,25 @@
 
     &:hover {
       background: $color-gradient-orangepink-hover;
+    }
+  }
+
+  &__container {
+    &__imgHero {
+      &__mobile {
+        display: block;
+      }
+
+      &__tablet,
+      &__desktop {
+        position: absolute;
+      }
+
+      &__tablet {
+        display: none;
+        right: -36%;
+        top: -67%;
+      }
     }
   }
 

@@ -4,7 +4,7 @@
 .courses {
   position: relative;
   background: $color-gradient-whitegrey;
-  padding-bottom: 5rem;
+  padding: 0rem 1rem 5rem 1rem;
 
   @include isMediaTablet() {
     display: grid;
