@@ -58,6 +58,10 @@
         right: -36%;
         top: -67%;
       }
+
+      &__desktop {
+        display: none;
+      }
     }
   }
 
@@ -76,7 +80,7 @@
 
       &__imgHero {
         &__mobile {
-          display: none !important;
+          display: none;
         }
 
         &__tablet,
@@ -88,6 +92,49 @@
           display: block;
           right: -36%;
           top: -67%;
+        }
+
+        &__desktop {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @include isMediaDesktop() {
+    &__container {
+      display: flex;
+
+      &__text {
+        width: 398px;
+        height: 384px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &__imgHero {
+        &__mobile {
+          display: none;
+        }
+
+        &__tablet,
+        &__desktop {
+          position: absolute;
+        }
+
+        &__tablet {
+          display: none;
+          right: -36%;
+          top: -67%;
+        }
+
+        &__desktop {
+          display: block;
+          width: 50%;
+          right: -16%;
+          bottom: -29%;
         }
       }
     }

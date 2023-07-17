@@ -4,6 +4,7 @@ import Paragraph from "../../atoms/Paragraph/Paragraph";
 import Button from "../../atoms/Button/Button";
 import imageHeroMobile from "../../../assets/img/image-hero-mobile.webp";
 import imageHeroTablet from "../../../assets/img/image-hero-tablet.webp";
+import imageHeroDesktop from "../../../assets/img/image-hero-desktop.webp";
 import "./_calltoaction.scss";
 
 const CallToAction = () => {
@@ -40,6 +41,11 @@ const CallToAction = () => {
             src={imageHeroTablet}
             alt="hero mobile"
             className="callToAction__container__imgHero__tablet"
+          />
+          <img
+            src={imageHeroDesktop}
+            alt="hero mobile"
+            className="callToAction__container__imgHero__desktop"
           />
         </div>
       </div>
