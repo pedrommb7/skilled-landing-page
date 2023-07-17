@@ -32,11 +32,12 @@
 
     @include isMediaTablet() {
       margin: 0rem !important;
+      padding-top: 3.5rem !important;
     }
 
     @include isMediaDesktop() {
       font-size: $font-size-32;
-      padding: 4rem 2rem 8.625rem 2rem !important;
+      padding: 4rem 7rem 8.625rem 2rem !important;
     }
   }
 
