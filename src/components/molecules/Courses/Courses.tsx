@@ -16,6 +16,7 @@ const Courses = () => {
         type={"h2"}
         text={"Check out our most popular courses!"}
         className="border-radius--10 px--28 pt--24 pb--32 mb--20"
+        role="heading"
       />
       <section className="courses__animation border-radius--10 mt--40">
         <Svg
@@ -24,7 +25,12 @@ const Courses = () => {
         />
 
         <div className="mt--24 mx--28">
-          <Heading type={"h3"} text={"Animation"} className="pt--56" />
+          <Heading
+            type={"h3"}
+            text={"Animation"}
+            className="pt--56"
+            role="heading"
+          />
           <Paragraph
             text={
               "Learn the latest animation techniques to create stunning motion design and captivate your audience."
@@ -37,7 +43,12 @@ const Courses = () => {
         <Svg icon={iconDesign} className="courses__design__iconDesign ml--28" />
 
         <div className="mt--24 mx--28">
-          <Heading type={"h3"} text={"Design"} className="pt--56" />
+          <Heading
+            type={"h3"}
+            text={"Design"}
+            className="pt--56"
+            role="heading"
+          />
           <Paragraph
             text={
               "Create beautiful, usable interfaces to help shape the future of how the web looks."
@@ -54,7 +65,12 @@ const Courses = () => {
         />
 
         <div className="mt--24 mx--28">
-          <Heading type={"h3"} text={"Photography"} className="pt--56" />
+          <Heading
+            type={"h3"}
+            text={"Photography"}
+            className="pt--56"
+            role="heading"
+          />
           <Paragraph
             text={
               "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
@@ -71,7 +87,12 @@ const Courses = () => {
         />
 
         <div className="mt--24 mx--28">
-          <Heading type={"h3"} text={"Crypto"} className="pt--56" />
+          <Heading
+            type={"h3"}
+            text={"Crypto"}
+            className="pt--56"
+            role="heading"
+          />
           <Paragraph
             text={
               "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
@@ -88,7 +109,12 @@ const Courses = () => {
         />
 
         <div className="mt--24 mx--28">
-          <Heading type={"h3"} text={"Business"} className="pt--56" />
+          <Heading
+            type={"h3"}
+            text={"Business"}
+            className="pt--56"
+            role="heading"
+          />
           <Paragraph
             text={
               "A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
