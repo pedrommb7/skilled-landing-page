@@ -31,7 +31,7 @@ const CallToAction = () => {
           />
         </div>
 
-        <div className="callToAction__container__imgHero flex flex__justify--center">
+        <picture className="callToAction__container__imgHero flex flex__justify--center">
           <img
             src={imageHeroMobile}
             alt="hero mobile"
@@ -47,7 +47,7 @@ const CallToAction = () => {
             alt="hero mobile"
             className="callToAction__container__imgHero__desktop"
           />
-        </div>
+        </picture>
       </div>
     </section>
   );
