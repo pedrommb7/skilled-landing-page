@@ -6,7 +6,7 @@ import "./_footer.scss";
 
 const Footer = () => {
   return (
-    <footer className="footer flex flex__justify--space-between py--40 px--16">
+    <footer className="footer flex flex__justify--space-between flex__align--center py--40 px--16">
       <Svg icon={logoLight} />
       <Button
         children={"Get Started"}
